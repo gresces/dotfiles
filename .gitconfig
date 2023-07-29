@@ -1,2 +1,5 @@
 [init]
 	defaultBranch = main
+[user]
+	email = gresces@foxmail.com
+	name = Gresces
