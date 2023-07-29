@@ -37,4 +37,6 @@ feh
 zim (zsh plugin) (curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh)
 libxcrypt-compat
 openssh
+acpilight (remove xorg-xbacklight)
+alsa-utils (gpasswd video -a <suername>)
 
