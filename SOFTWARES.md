@@ -39,4 +39,4 @@ libxcrypt-compat
 openssh
 acpilight (remove xorg-xbacklight)
 alsa-utils (gpasswd video -a <suername>)
-
+i3lock-color

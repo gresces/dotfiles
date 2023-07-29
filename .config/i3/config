@@ -62,7 +62,6 @@ default_floating_border pixel 1
 
 hide_edge_borders smart
 
-
 #######################################
 ###########My UI Config End############
 #######################################
@@ -137,6 +136,16 @@ bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
+
+###########################
+# My Bindsym Start
+###########################
+
+bindsym Mod1+Shift+l exec /home/gresces/.config/script/lock
+
+###########################
+# My Bindsym End
+###########################
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
