@@ -35,4 +35,6 @@ v2ray qv2ray
 btop
 feh
 zim (zsh plugin) (curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh)
+libxcrypt-compat
+openssh
 
