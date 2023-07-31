@@ -1,1 +1,3 @@
 Xft.dpi: 128
+Xcursor.theme: material_light_cursors
+Xcursor.size: 48

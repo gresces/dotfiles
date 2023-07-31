@@ -40,3 +40,16 @@ openssh
 acpilight (remove xorg-xbacklight)
 alsa-utils (gpasswd video -a <suername>)
 i3lock-color
+i3blocks
+
+### 30
+paru
+zathura
+xf86-input-libinput
+feh
+ranger [lf, nnn, fff]
+yad xdotool (for i3blocks)
+rofi
+vivaldi
+ibus
+
