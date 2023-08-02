@@ -51,5 +51,15 @@ ranger [lf, nnn, fff]
 yad xdotool (for i3blocks)
 rofi
 vivaldi
-ibus
 
+## August
+### 1
+hugo
+udisks2
+udiskie
+npm (nodejs etc.)
+
+### 2
+fcitx5-pinyin-moegirl
+retext
+volumeicon
