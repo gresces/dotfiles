@@ -63,3 +63,13 @@ npm (nodejs etc.)
 fcitx5-pinyin-moegirl
 retext
 volumeicon
+network-manager-applet
+cgproxy-git
+v2raya
+noto-fonts-emoji
+
+### 26
+code
+lsof
+neovim
+pacman-contrib
