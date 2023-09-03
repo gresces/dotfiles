@@ -73,3 +73,20 @@ code
 lsof
 neovim
 pacman-contrib
+
+### 27
+clash
+clash-verge
+proxychains-ng
+flameshot
+okular
+lutris
+amdvlk
+steam(many addons)
+bluez bluez-utils
+blueman
+
+## September
+### 2
+putty
+elinks

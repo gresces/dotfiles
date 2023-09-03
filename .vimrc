@@ -2,12 +2,12 @@ set number
 set relativenumber
 
 syntax on
-colorscheme desert
+colorscheme industry/*{{{*/
 
 set cul
 
 "  mouse
-set mouse=a
+set mouse=a/*}}}*/
 set selection=exclusive
 set selectmode=mouse,key
 
@@ -30,3 +30,9 @@ set ruler
 
 " scroll
 set scrolloff=7
+
+" tab
+set tabstop=4
+
+" foldmethod
+set fdm=marker
