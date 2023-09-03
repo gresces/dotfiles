@@ -2,12 +2,12 @@ set number
 set relativenumber
 
 syntax on
-colorscheme industry/*{{{*/
+colorscheme industry
 
 set cul
 
 "  mouse
-set mouse=a/*}}}*/
+set mouse=a
 set selection=exclusive
 set selectmode=mouse,key
 
