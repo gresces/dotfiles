@@ -90,3 +90,19 @@ blueman
 ### 2
 putty
 elinks
+
+### 13
+grub-customizer
+
+### 15
+ttf-inconsolata
+
+### 16
+obs-studio
+go-musicfox
+
+### 18
+nodejs
+npm node 
+perl-tk
+tk

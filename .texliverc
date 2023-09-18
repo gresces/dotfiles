@@ -1,0 +1,7 @@
+#TexLive2023环境配置
+export TexMan="/usr/local/texlive/2023/texmf-dist/doc/man"
+export TexInfo="/usr/local/texlive/2023/texmf-dist/doc/info"
+export TexLive="/usr/local/texlive/2023/bin/x86_64-linux"
+export MANPATH="$MANPATH:$TexMan"
+export INFOPATH="$INFOPATH:$TexInfo"
+export PATH="$PATH:$TexLive"

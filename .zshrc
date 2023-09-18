@@ -137,5 +137,19 @@ unset key
 
 source ~/.zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
+# For Texlive
+source ~/.texliverc
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+function proxy_on() {
+    export http_proxy=http://127.0.0.1:1089
+    export https_proxy=\$http_proxy
+    echo -e "Proxy OPEN"
+}
+
+function proxy_off(){
+    unset http_proxy https_proxy
+    echo -e "Proxy CLOSE"
+}
+

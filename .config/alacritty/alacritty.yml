@@ -35,5 +35,10 @@ colors:
 window:
   opacity: 0.85
 
+
+tabspace: 4
+
 font:
-  size: 16 
+  size: 19
+  normal:
+    family: Inconsolata
