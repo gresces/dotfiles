@@ -106,3 +106,9 @@ nodejs
 npm node 
 perl-tk
 tk
+texlive (by image) [WEBSITE](https://zhuanlan.zhihu.com/p/524165545)
+
+### 19
+clang
+ccls
+texlab
