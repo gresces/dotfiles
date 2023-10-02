@@ -5,7 +5,7 @@ vim.keymap.set('n', '<C-l>', '<C-w>l', opts)
 vim.keymap.set('n', '<C-j>', '<C-w>j', opts)
 vim.keymap.set('n', '<C-k>', '<C-w>k', opts)
 
-vim.keymap.set('n', '<A-m>', ':NvimTreeToggle<CR>', opts)
+vim.keymap.set('n', '<A-m>', ':NERDTreeToggle<CR>', opts)
 
 -- Better navigate the completion list
 --vim.keymap.set('n', '<Tab>', '<C-n>', opts)

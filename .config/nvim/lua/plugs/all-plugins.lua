@@ -29,5 +29,12 @@ return {
  		end
  	},
 	{
+		'iamcco/markdown-preview.nvim'
+		-- For Markdown Preview in Web Browser
+	},
+	{
+		'mhinz/vim-startify'
+	},
+	{
 	}
 }

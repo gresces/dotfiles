@@ -112,3 +112,11 @@ texlive (by image) [WEBSITE](https://zhuanlan.zhihu.com/p/524165545)
 clang
 ccls
 texlab
+
+### 24
+pcmanfm-qt
+graphviz
+dot2tex
+
+### 27
+bochs

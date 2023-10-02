@@ -140,11 +140,15 @@ source ~/.zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 # For Texlive
 source ~/.texliverc
 
+# For Tmux
+# alias tmux="tmux -2"
+export TERM=screen-256color
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 function proxy_on() {
     export http_proxy=http://127.0.0.1:1089
-    export https_proxy=\$http_proxy
+	export https_proxy=http://127.0.0.1:1089
     echo -e "Proxy OPEN"
 }
 
