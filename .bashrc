@@ -54,7 +54,7 @@ export TODO="t"
 # Set this to false to turn off version control status checking within the prompt for all themes
 export SCM_CHECK=false
 
-#export SHORT_HOSTNAME=$(hostname -s)
+export SHORT_HOSTNAME=$(hostname -s)
 
 #export SHORT_USER=${USER:0:8}
 
