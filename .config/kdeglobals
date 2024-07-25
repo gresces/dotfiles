@@ -132,9 +132,32 @@ ForegroundNormal=252,252,252
 ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
+[DirSelect Dialog]
+DirSelectDialog Size=864,540
+History Items[$e]=file:$HOME/Project/cppFP
+
 [General]
-ColorScheme=BreezeDark
-ColorSchemeHash=38f350e0530aaa58cc20a2cf2011a8a2d0c7a4fc
+ColorSchemeHash=4a48bd34ba53d580d8594cb0216221e77518509f
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=140
+View Style=DetailTree
 
 [WM]
 activeBackground=49,54,59
