@@ -252,9 +252,27 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
-[services][Alacritty.desktop]
+[services][alacritty.desktop]
 _launch=Meta+Return
+
+[services][org.kde.dolphin.desktop]
+_launch=none
+
+[services][org.kde.kcalc.desktop]
+_launch=none
 
 [services][org.kde.krunner.desktop]
 RunClipboard=none
 _launch=Alt+D
+
+[services][org.kde.plasma-systemmonitor.desktop]
+_launch=none
+
+[services][org.kde.plasma.emojier.desktop]
+_launch=none
+
+[services][org.kde.spectacle.desktop]
+_launch=none
+
+[services][systemsettings.desktop]
+_launch=none

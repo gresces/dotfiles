@@ -134,10 +134,12 @@ ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
 DirSelectDialog Size=864,540
-History Items[$e]=file:$HOME/Project/cppFP
+History Items[$e]=file:$HOME/Project/Adaxia,file:$HOME/Project/cppFP
 
 [General]
 ColorSchemeHash=4a48bd34ba53d580d8594cb0216221e77518509f
+TerminalApplication=alacritty
+TerminalService=Alacritty.desktop
 
 [KFileDialog Settings]
 Allow Expansion=false
