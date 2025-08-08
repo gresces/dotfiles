@@ -5,7 +5,7 @@
     "mode": "dock",
     "modules-left": ["hyprland/workspaces"],
     "modules-center": [],
-    "modules-right": ["battery", "clock"],
+    "modules-right": ["pulseaudio", "battery", "clock"],
     "hyprland/workspaces": {
         "format": "{icon}",
         "on-click": "activate",
@@ -20,6 +20,14 @@
             "default": ""
         },
         "sort-by-number": true
+    },
+    "pulseaudio": {
+        "format": "{volume}%",
+        "format-bluetooth": " {volume}%",
+        "format-muted": "M",
+        "scroll-step": 1,
+        "on-click": "plasma-open-settings",
+        "ignored-sinks": ["Easy Effects Sink"]
     },
     "battery": {
         "format": "{capacity}% {icon}",
