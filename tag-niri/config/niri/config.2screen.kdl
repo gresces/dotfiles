@@ -37,7 +37,7 @@ output "eDP-2" {
 
 output "HDMI-A-1" {
     mode "2560x1440@119.998"
-    scale 1
+    scale 1.2
 }
 
 // ────────────── Keybindings ──────────────
@@ -176,8 +176,8 @@ binds {
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Miscellaneous#spawn-sh-at-startup
 
     spawn-sh-at-startup "/usr/lib/polkit-kde-authentication-agent-1 &" // Polkit
-    spawn-sh-at-startup "swww-daemon" // Wallpaper daemon
-    spawn-sh-at-startup "swww img /usr/share/wallpapers/cachyos-wallpapers/Skyscraper.png" // Set wallpaper
+    spawn-sh-at-startup "awww-daemon" // Wallpaper daemon
+    spawn-sh-at-startup "awww img /usr/share/wallpapers/cachyos-wallpapers/Skyscraper.png" // Set wallpaper
     spawn-sh-at-startup "waybar" // Launch waybar
     spawn-sh-at-startup "~/.config/niri/bin/niri-config.sh"
     spawn-sh-at-startup "wlsunset -t 5000"
