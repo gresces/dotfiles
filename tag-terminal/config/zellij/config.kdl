@@ -3,6 +3,7 @@
 //
 
 keybinds clear-defaults=true {
+    unbind "Ctrl q";
     locked {
         bind "Ctrl g" { SwitchToMode "normal"; }
     }
@@ -137,6 +138,9 @@ keybinds clear-defaults=true {
             }
             SwitchToMode "normal"
         }
+	bind "q" {
+	    Quit;
+	}
         bind "s" {
             LaunchOrFocusPlugin "zellij:share" {
                 floating true
@@ -165,7 +169,6 @@ keybinds clear-defaults=true {
         bind "Alt o" { MoveTab "right"; }
         bind "Alt p" { TogglePaneInGroup; }
         bind "Alt Shift p" { ToggleGroupMarking; }
-        bind "Ctrl q" { Quit; }
     }
     shared_except "locked" "move" {
         bind "Ctrl h" { SwitchToMode "move"; }
